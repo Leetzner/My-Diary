@@ -1,0 +1,11 @@
+{% extends 'my_diary/base.html' %}
+
+{% block content %}
+    <h1 class="title">{{ post.title }}</h1>
+
+    <small>Posted at {{ post.date_added }}</small>
+
+    <p><stong>{{ post.intro }}</stong></p>
+
+    <p>{{ post.body }}</p>
+{% endblock %}
