@@ -13,8 +13,7 @@
     <nav class="navbar is-success">
         <div class="navbar-brand">
             <a href="/" class="navbar-item"><strong>My Diary</strong></a>
-            {% if user.is_authenticated %}
-                <a href="{% url 'account_logout' %}" class="navbar-link"><strong>Logout</strong></a>
+            <a href="../my_diary/login" class="navbar-link"><strong>Logout</strong></a>
         </div>
     </nav>
     
