@@ -25,7 +25,8 @@ def post_detail(request, slug):
     else:
         form = CommentForm()
 
-    return render(request, 'my_diary/post_detail.html', {'post': post, 'form': form})
+    return render(request, 'my_diary/post_detail.html', {'post': post,
+                                                         'form': form})
 
 
 def login(request):

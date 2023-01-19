@@ -10,4 +10,3 @@ class PostAdmin(SummernoteModelAdmin):
     summernote_fields = ('body')
     search_fields = ['title', 'body']
     list_display = ('title', 'slug', 'intro', 'body')
-    
