@@ -1,1 +1,1 @@
-web: gunicorn my-diary-leetzner.wsgi
+web: gunicorn my_diary.wsgi
