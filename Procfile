@@ -1,1 +1,1 @@
-web: gunicorn my_diary.wsgi
+web: gunicorn diary.wsgi
