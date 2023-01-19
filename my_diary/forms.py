@@ -1,5 +1,5 @@
 from django import forms
-
+from django_summernote.admin import SummernoteModelAdmin
 from .models import Comment
 
 class CommentForm(forms.ModelForm):
