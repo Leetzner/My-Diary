@@ -22,8 +22,12 @@
     <section class="section is-full-mobile">
         <div class="container">
             {% load static %}
+            {% block media %}
+            
             <img class="img-opacity" src="{% static "media/jag.jpg" %}" alt="Hi!">
-        </div>
+            {% endblock %}
+        </div> 
+           
         <div class="container">
             <br>
             {% block content %}
@@ -39,5 +43,3 @@
       </footer>
 </body>
 </html>
-<script>
-</script>

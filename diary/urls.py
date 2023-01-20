@@ -16,13 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from my_diary.views import frontpage, post_detail, login
+from my_diary.views import frontpage, post_detail
 
 urlpatterns = [
     path('', frontpage, name='frontpage'),
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
     path('<slug:slug>/', post_detail, name='post_detail'),
-    path('login', login, name='login'),
     path('accounts/', include('allauth.urls')),
 ]

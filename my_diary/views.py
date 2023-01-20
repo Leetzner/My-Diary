@@ -29,5 +29,4 @@ def post_detail(request, slug):
                                                          'form': form})
 
 
-def login(request):
-    return render(request, 'my_diary/login.html')
+
