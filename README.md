@@ -19,23 +19,45 @@ There you can comment and choose any nickname for the comment.
 
 ### Existing Features
 
-
 - __Navigationbar__
 
-    
+    Simple navigationbar that only serves one purpose, take you back where you belong ( at the frontpage reading all my posts).
+
+    The button  "My-Diary" has a hover over effect that Bulma supply.
+
 - __Image__
 
+    This is a image of me looking out over the ocean, thinking about everything else than stress and time.
+
 - __Posts__
+    
+    The posts is filtered from newest to oldest, with the newest starting from the top of the page
 
 - __footer__
 
+    Footer is provided by Bulma, the link will take you to my github page
+
 ### Features Left to Implement
+
+I wanna make a filter tool so you can search for posts.
+
+I wanna make a login page for visitors so that they can personally reach me if they want.
+
 
 ## Testing 
 
+I´ve made some tests and testing to the site, not 100% happy with the outcome.
+
+
+
 ### Validator Testing 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmy-diary-leetzner.herokuapp.com%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmy-diary-leetzner.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ### Unfixed Bugs
+
 
 ## Deployment
 
