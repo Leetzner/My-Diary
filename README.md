@@ -8,6 +8,8 @@
 
  This app is all about peace and reflection.
 
+ ![wireframes](my_diary/static/media/read-me-media/wireframes.jpg)
+
 ## Features 
 
 "What you see is what you get"
@@ -25,18 +27,35 @@ There you can comment and choose any nickname for the comment.
 
     The button  "My-Diary" has a hover over effect that Bulma supply.
 
+![nav-bar](my_diary/static/media/read-me-media/nav-bar.jpg)
 - __Image__
 
     This is a image of me looking out over the ocean, thinking about everything else than stress and time.
-
+![me](my_diary/static/media/jag.jpg)
 - __Posts__
     
     The posts is filtered from newest to oldest, with the newest starting from the top of the page
 
-- __footer__
+![posts](my_diary/static/media/read-me-media/posts.jpg)
+
+- __Comments__
+
+    Here you can comment, choose any name and write what you think about my post.
+
+    To add comment
+
+    ![addcomment](my_diary/static/media/read-me-media/add-comment.jpg)
+
+    ![comment](my_diary/static/media/read-me-media/comments.jpg)
+
+    If no one has commented before this will show.
+
+    ![nocomment](my_diary/static/media/read-me-media/no-comments.jpg)
+- __Footer__
 
     Footer is provided by Bulma, the link will take you to my github page
 
+![footer](my_diary/static/media/read-me-media/footer.jpg)
 ### Features Left to Implement
 
 I wanna make a filter tool so you can search for posts.
