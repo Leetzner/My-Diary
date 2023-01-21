@@ -13,12 +13,14 @@
     
 </head>
 <body>
+    <!-- Nav bar-->
     <nav class="navbar is-success">
         <div class="navbar-brand has-text-centered">
             <a href="/" class="navbar-item"><strong>My Diary</strong></a>
         </div>
     </nav>
     
+    <!--image section-->
     <section class="section is-full-mobile">
         <div class="container">
             {% load static %}
@@ -27,13 +29,15 @@
             <img class="img-opacity" src="{% static "media/jag.jpg" %}" alt="Hi!">
             {% endblock %}
         </div> 
-           
+
+    <!--Post section-->
         <div class="container">
             <br>
             {% block content %}
             {% endblock %}
         </div>
     </section>
+    <!--Footer-->
     <footer class="footer">
         <div class="content has-text-centered">
           <p>

@@ -4,7 +4,9 @@
  This project is made for me personaly to clear my head of thoughts thru out the day.
  As a viewer you will get the chance to comment my posts and hopefully bring joy to my posts.
 
- I made this very simple yet quite agile project (I really wanna make it better in useful ways but my timebank is running out for the momment being),
+ I made this very simple yet quite agile project (I really wanna make it better in useful ways but my timebank is running out for the momment being).
+
+ This was a quite hard project to jump to, felt like the leap was far too great from the other projects I´ve done.
 
  This app is all about peace and reflection.
 
@@ -56,7 +58,7 @@ There you can comment and choose any nickname for the comment.
     Footer is provided by Bulma, the link will take you to my github page
 
     ![footer](my_diary/static/media/read-me-media/footer.jpg)
-    
+
 ### Features Left to Implement
 
 I wanna make a filter tool so you can search for posts.
@@ -66,7 +68,7 @@ I wanna make a login page for visitors so that they can personally reach me if t
 
 ## Testing 
 
-I´ve made some tests and testing to the site, not 100% happy with the outcome.
+I´ve made some tests and testing to the site.
 
 
 
@@ -78,11 +80,23 @@ I´ve made some tests and testing to the site, not 100% happy with the outcome.
 
 ### Unfixed Bugs
 
+Summernote isn´t readable on site. 
+I´ve googled this but haven´t found any solution to this for now (agile work).
+The summernote is implemented in the database, in the future I wanna get it to work
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This project use ElephantSQL, Heroku and github.
+
+It´s hosted with Django and I followed a agile process on github, with user stories and project overview.
 
 ## Credits 
+
+Credits to "Codewithstein" watch many of his youtube videos to help build the models and views with python.
+
+I have many thanks to google aswell, as my whole project is googled and built with other peoples smart tips.
+
+Bulma is included in this project (Tried something else than bootstrap to learn diffrent software)
+
 
  

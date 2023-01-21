@@ -1,5 +1,5 @@
 {% extends 'my_diary/base.html' %}
-
+<!--Post section-->
 {% block content %}
     <h1 class="title">{{ post.title }}</h1>
 
@@ -17,6 +17,7 @@
     <h2 class="subtitle">Comments</h2>
 
     {% for comment in post.comments.all %}
+    <!--add comment section-->
         <article class="media">
             <div class="media-content">
                 <div class="content">
@@ -30,13 +31,14 @@
             </div>
         </article>
     {% empty %}
+        <!--If no comments been made before-->
         <div class="notification">
             <p>No comments yet!</p>
         </div>
     {% endfor %}
 
     <hr>
-
+    <!--Comment section-->
     <h2 class="subtitle">Add comment</h2>
 
     <form method="post" action=".">
@@ -50,8 +52,5 @@
             </div>
         </div>
     </form>
-    <script>
-    var markupStr = $('#summernote'). summernote('code');
-    </script>
 
 {% endblock %}
