@@ -27,6 +27,3 @@ def post_detail(request, slug):
 
     return render(request, 'my_diary/post_detail.html', {'post': post,
                                                          'form': form})
-
-
-

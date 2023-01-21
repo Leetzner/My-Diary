@@ -55,7 +55,8 @@ There you can comment and choose any nickname for the comment.
 
     Footer is provided by Bulma, the link will take you to my github page
 
-![footer](my_diary/static/media/read-me-media/footer.jpg)
+    ![footer](my_diary/static/media/read-me-media/footer.jpg)
+    
 ### Features Left to Implement
 
 I wanna make a filter tool so you can search for posts.
