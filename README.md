@@ -70,7 +70,17 @@ I wanna make a login page for visitors so that they can personally reach me if t
 
 I´ve made some tests and testing to the site.
 
+I didn´t get the Python tests to work due to no implement of the postreSQL.
 
+Stumbled across this problem when I tried to implement the CSS static file.
+![CSS](my_diary/static/media/read-me-media/css-problem.png)
+Turned out that I didn´t implement it the right way at all.
+
+
+Also my app crashed due to wrong tags used in the "base.html"
+![endfor](my_diary/static/media/read-me-media/endfor.png)
+
+And my database can´t send readable summernote to HTML.
 
 ### Validator Testing 
 - HTML
